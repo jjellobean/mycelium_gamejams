@@ -1,0 +1,52 @@
+.BSAGM {
+  --BSAGM_blue: #0A1029;
+  --BSAGM_white: #CDDDDD;
+  --BSAGM_yellow: #C69A21;
+  --BSAGM_purple: #5634C1;
+  --BSAGM_text_font: 'Lexend Deca',Lato,LatoExtended,sans-serif;
+  --BSAGM_header_font: "Alan Sans", sans-serif;
+  text-align: justify;
+  font-family: var(--BSAGM_text_font);
+  font-size: 16px;
+  color: var(--BSAGM_blue);
+}
+
+.BSAGM_H1, .BSAGM_H2 {
+  text-align: center;
+  font-family: var(--BSAGM_header_font);
+  font-weight: 900;  
+}
+
+.BSAGM_H1 {
+  font-size: 128px;
+  color: var(--BSAGM_white);
+}
+
+.BSAGM_H2 {
+  font-size: 52px;
+}
+
+.BSAGM_main_background {
+  border-radius: var(--itchio_border_radius);
+  max-width: 920px;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--BSAGM_blue);
+}
+
+.BSAGM_flex_parent {
+  border: 1px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 20px 20px;
+}
+
+.BSAGM_box {
+  border-radius: var(--itchio_border_radius);
+  margin: auto;
+  padding: 20px;
+  background-color: var(--BSAGM_white);
+}
